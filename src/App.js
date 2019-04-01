@@ -1,25 +1,144 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+      <div>
+        <header id="header">
+          <div id="mainHeader">
+            <div>The header content will go here!</div>
+          </div>
         </header>
+        <main id="mainContent">
+          <div id="detailedInfo">
+            Here you can see detailed info about the selected user.
+          </div>
+          <div id="mappedUsers">
+            <div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div>
+            <div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div><div className="userCard">
+              <h4>Name</h4>
+              <h5>Instrument</h5>
+              <p>Area</p>
+              <div>Endorsements</div>
+              <div>Mutual Connections</div>
+            </div>
+          </div>
+        </main>
       </div>
     );
   }
